@@ -37,7 +37,7 @@ namespace XOR_Cipher
             {
                 char charBit = CharBinary[i];
                 char keyBit = KeyBinary[i];
-                if (charBit == '0' & keyBit == '0' | charBit == '1' & keyBit == '1')
+                if (charBit == '0' & keyBit == '0' || charBit == '1' & keyBit == '1')
                 {
                     xor += '0';
                 }
